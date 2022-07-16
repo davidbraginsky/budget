@@ -6,7 +6,10 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Budget App</h1>
+      <nav className="nav">
+        <div className="sidebarIcon"></div>
+        <p className="nav__title">Home</p>
+      </nav>
       <Link to="/transaction">Add Transaction</Link>
     </div>
   );
