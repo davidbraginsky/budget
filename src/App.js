@@ -3,6 +3,7 @@ import { useState } from "react";
 function App() {
   const [expense, setExpense] = useState("");
   const [income, setIncome] = useState("");
+  const [transactionList, setTransactionList] = useState([]);
 
   const submitHandler = (e) => {
     e.preventDefault();
