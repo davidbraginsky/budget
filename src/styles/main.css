@@ -16,4 +16,31 @@ body {
   background-color: #121212;
 }
 
+.container {
+  width: 375px;
+}
+
+.transaction {
+  color: #fafffe;
+}
+.transaction .confirmation-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #573c33;
+  padding: 16px;
+  font-size: 22px;
+}
+.transaction .option-row {
+  display: flex;
+  background-color: #68423f;
+}
+.transaction .option-row .option {
+  flex-grow: 1;
+  text-align: center;
+  padding: 16px;
+}
+.transaction .option-row .option--active {
+  background-color: #573c33;
+}
+
 /*# sourceMappingURL=main.css.map */

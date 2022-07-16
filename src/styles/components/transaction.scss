@@ -1,0 +1,26 @@
+.transaction {
+  color: $light-white;
+
+  & .confirmation-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: $dark-brown;
+    padding: 16px;
+    font-size: 22px;
+  }
+
+  & .option-row {
+    display: flex;
+    background-color: $brown;
+
+    & .option {
+      flex-grow: 1;
+      text-align: center;
+      padding: 16px;
+
+      &--active {
+        background-color: $dark-brown;
+      }
+    }
+  }
+}
